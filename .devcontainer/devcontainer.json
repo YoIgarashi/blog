@@ -1,0 +1,15 @@
+{
+  "name": "plactoce-devcontainer",
+  "dockerComposeFile": "compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+
+  "features": {
+    "ghcr.io/devcontainers/features/ruby:1": {
+      "version": "3.3.4"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20.15.1"
+    }
+  }
+}
